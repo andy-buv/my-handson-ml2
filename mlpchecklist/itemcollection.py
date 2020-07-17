@@ -1,3 +1,5 @@
+nl = '\n'
+
 class ItemCollection:
     
     def __init__(self, title, items={}, author=None):
@@ -15,6 +17,7 @@ class ItemCollection:
         return f"""
         {self.title.upper()}
         {"=" * len(self.title)}\n
+        {'Source: ' + self.author + nl if self.author else ''}    
         {str_items}\n"""
     
     def __str__(self):
@@ -25,6 +28,7 @@ class ItemCollection:
         return f"""
         {self.title.upper()}
         {"=" * len(self.title)}\n
+        {'Source: ' + self.author + nl if self.author else ''}
         {str_items}\n"""
     
     def detailed(self):

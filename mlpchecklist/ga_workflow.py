@@ -36,4 +36,4 @@ dsw_main_steps = {'_1': ChecklistItem("1. Identify the Problem", _1_steps),
                   '_6': ChecklistItem("6. Build a Data Model", _6_steps),
                   '_7': ChecklistItem("7. Present the Results", _7_steps)}
 
-DSW = ItemCollection('Data Science Workflow', dsw_main_steps,'General Assembly Slides')
+DataScienceWorkflow = ItemCollection('Data Science Workflow', dsw_main_steps, 'General Assembly Slides')

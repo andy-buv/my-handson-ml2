@@ -123,4 +123,4 @@ mlp_main_steps = {'notes': ChecklistItem("This checklist can guide you through y
                   '_7': ChecklistItem("7. Present your solution.", _7_steps),
                   '_8': ChecklistItem("8. Launch, monitor, and maintain your system.", _8_steps, 'Launch!')}
 
-MLP = ItemCollection('Machine Learning Project Checklist', mlp_main_steps, 'Aurélion Géron')
+MachineLearningProjectChecklist = ItemCollection('Machine Learning Project Checklist', mlp_main_steps, 'Aurélion Géron')
